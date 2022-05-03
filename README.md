@@ -3,7 +3,7 @@ Code to generate results in "Effective pandemic policy design through feedback d
 
 This code was developed in Matlab 2019b and has not been tested in any other version. 
 
-This code is based on a Matlab implementation of the model by Anderson et al., which is available here
+This code includes a Matlab implementation of the model by Anderson et al., which is available here
 https://github.com/carolinecolijn/distancing-impact-covid19.git
 Alterations to the original model have been made to incorporate feedback and additional scenarios, as detailed in the paper. 
 
