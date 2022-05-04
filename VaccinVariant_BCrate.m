@@ -82,7 +82,7 @@ title('Variant (2.5 times more contagious)')
 subplot(234)
 plot(f_Var, 'color', d_orange, 'linewidth', 2); hold on
 plot([t_var t_var], [0 1], 'color', l_blue, 'linestyle', '--')
-ylabel('Intervention u(t)')
+ylabel('Level of activity u(t)')
 xlim([0 2*360]); ylim([0 1]); grid on
 xlabel('Time [days]')
 set(gcf, 'color', [1 1 1]); 
@@ -98,7 +98,7 @@ title('Vaccinations')
 
 subplot(235)
 plot(f_Vac, 'color', d_orange, 'linewidth', 2); hold on
-ylabel('Intervention u(t)')
+ylabel('Level of activity u(t)')
 plot([t_vac t_vac], [0 1], 'color', l_blue*.5, 'linestyle', '--')
 xlim([0 2*360]); ylim([0 1]); grid on
 xlabel('Time [days]')
@@ -119,7 +119,7 @@ title('Variant and vaccinations')
 
 subplot(236)
 plot(f_Vac_Var, 'color', d_orange, 'linewidth', 2); hold on
-ylabel('Intervention u(t)')
+ylabel('Level of activity u(t)')
 xlim([0 2*360]); ylim([0 1]); grid on
 plot([t_var t_var], [0 1], 'color', l_blue, 'linestyle', '--')
 plot([t_vac t_vac], [0 1], 'color', l_blue*.5, 'linestyle', '--')

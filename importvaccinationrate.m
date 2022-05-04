@@ -25,7 +25,7 @@ opts = setvaropts(opts, "prename", "EmptyFieldRule", "auto");
 opts = setvaropts(opts, "week_end", "InputFormat", "yyyy-MM-dd");
 
 % Import the data
-BCVaccinationprogress = readtable("/Volumes/KvanHeusden/Klaske Work Files/COVID19/models/Files Paper for Publication/BCVaccinationprogress.csv", opts);
+BCVaccinationprogress = readtable("BCVaccinationprogress.csv", opts);
 
 
 %% Clear temporary variables

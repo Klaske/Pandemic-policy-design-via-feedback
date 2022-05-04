@@ -65,14 +65,14 @@ Results_totalinterventions = {['\int u_e(t)  = ' num2str(round(sum(f_constant-f_
 %% Results
 figure('position', [400 400 800 250])
 
-subplot(321); plot(I_constant, 'color', [0 0.4470 0.7410], 'linewidth', 2); hold on; grid on;  ylabel('Number of infections I_T'); ylim([0 2000])
-subplot(323); plot(I_input1, 'color', [0.8500 0.3250 0.0980], 'linewidth', 2) ; hold on; grid on;  ylabel('Number of infections I_T'); ylim([0 2000])
-subplot(325); plot(I_input2, 'color', [0.9290 0.6940 0.1250], 'linewidth', 2);  hold on; grid on;  ylabel('Number of infections I_T'); ylim([0 2000])
+subplot(321); plot(I_constant, 'color', [0 0.4470 0.7410], 'linewidth', 2); hold on; grid on;  title('Scenario 1'); ylabel('Number of infections I_T'); ylim([0 2000])
+subplot(323); plot(I_input1, 'color', [0.8500 0.3250 0.0980], 'linewidth', 2) ; hold on; grid on;  title('Scenario 2'); ylabel('Number of infections I_T'); ylim([0 2000])
+subplot(325); plot(I_input2, 'color', [0.9290 0.6940 0.1250], 'linewidth', 2);  hold on; grid on;  title('Scenario 3'); ylabel('Number of infections I_T'); ylim([0 2000])
 xlabel('Time [days]');
 
-subplot(322); plot(f_constant, 'color', [0 0.4470 0.7410], 'linewidth', 2); hold on; grid on; ylabel('Intervention u(t)'); ylim([0 1])
-subplot(324); plot(f_input1, 'color', [0.8500 0.3250 0.0980], 'linewidth', 2); hold on; grid on; ylabel('Intervention u(t)'); ylim([0 1])
-subplot(326); plot(f_input2, 'color', [0.9290 0.6940 0.1250], 'linewidth', 2); hold on; grid on; ylabel('Intervention u(t)'); ylim([0 1])
+subplot(322); plot(f_constant, 'color', [0 0.4470 0.7410], 'linewidth', 2); hold on; grid on; ylabel('Level of activity u(t)'); ylim([0 1])
+subplot(324); plot(f_input1, 'color', [0.8500 0.3250 0.0980], 'linewidth', 2); hold on; grid on; ylabel('Level of activity u(t)'); ylim([0 1])
+subplot(326); plot(f_input2, 'color', [0.9290 0.6940 0.1250], 'linewidth', 2); hold on; grid on; ylabel('Level of activity u(t)'); ylim([0 1])
 xlabel('Time [days]');
 set(gcf, 'color', [1 1 1])
 
