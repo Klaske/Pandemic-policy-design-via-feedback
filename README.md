@@ -1,5 +1,5 @@
 # Pandemic-policy-design-via-feedback
-Code to generate results in "Pandemic policy design via feedback: a simulation study" K.van Heusden et al. 
+Code to generate results in "Effective pandemic policy design through feedback does not need accurate predictions" K.van Heusden et al. 
 
 This code was developed in Matlab 2019b and has not been tested in any other version. 
 

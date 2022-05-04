@@ -65,7 +65,7 @@ ylabel('Number of infections (I_T)')
 subplot(223)
 plot(fcl_log, 'color', [0 0.4470 0.7410], 'linewidth', 2); hold on
 plot(fcl_log_design_sd, 'color', [0.9290 0.6940 0.1250], 'linewidth', 2)
-ylabel('Intervention u(t)')
+ylabel('Level of activity u(t)')
 xlim([450 550]); ylim([0.45 .6]); grid on
 xticks(430:20:550); xticklabels({'0','0', '20','40','60','80', '100'}); 
 xlabel('Time [days]')
@@ -177,7 +177,7 @@ end
         subplot(224)
         
         stairs(fcl_log_design_sd, 'color', clr, 'linewidth', wdth, 'linestyle', stle); hold on
-        ylabel('Intervention u(t)')
+        ylabel('Level of activity u(t)')
         xlim([450 650]); ylim([0.45 .6]); grid on
         xticks(450:40:650); xticklabels({'0', '40','80',  '120', '160','200'}); 
         xlabel('Time [days]')

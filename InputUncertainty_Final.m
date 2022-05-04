@@ -101,7 +101,7 @@ plot([200 200], [0 500], 'color',  [ .3 .3 .3], 'linestyle', '--')
 subplot(223)
 plot(f_P, 'color', [0.4940    0.1840    0.5560], 'linewidth', 2); hold on
 plot(f_PI, 'color', [0.9290 0.6940 0.1250], 'linewidth', 2); hold on
-ylabel('Intervention u(t)')
+ylabel('Level of activity u(t)')
 xlim([150 400]); ylim([0 1]); grid on
 xticks(150:50:400); xticklabels({'0', '50','100','150','200', '250'}); 
 xlabel('Time [days]')
@@ -119,7 +119,7 @@ plot([200 200], [0 500], 'color',  [ .3 .3 .3], 'linestyle', '--')
 subplot(224)
 plot(f_PIQ, 'color', [0.9290 0.6940 0.1250], 'linewidth', 2); hold on
 plot(f_PQ, 'color', [0.4940    0.1840    0.5560], 'linewidth', 2)
-ylabel('Intervention u(t)')
+ylabel('Level of activity u(t)')
 xlim([150 400]); ylim([0 1]); grid on
 xticks(150:50:400); xticklabels({'0', '50','100','150','200', '250'}); 
 xlabel('Time [days]')

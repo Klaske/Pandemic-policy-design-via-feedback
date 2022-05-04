@@ -106,12 +106,12 @@ subplot(221); grid on;
  ylabel('Number of Infections (I_T)');
  
 subplot(223); grid on;
- ylabel('Intervention u(t)');
+ ylabel('Level of activity u(t)');
 subplot(222); grid on; 
  ylabel('Number of Infections (I_T)');
 
 subplot(224); grid on;
- ylabel('Intervention u(t)');
+ ylabel('Level of activity u(t)');
  set(gcf, 'color', [1 1 1]); 
  
 %% This figure showing percentiles does not tell the whole story, as the
